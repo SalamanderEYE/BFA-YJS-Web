@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         BFA选课
-// @namespace     http://your-namespace.com
+// @namespace     https://github.com/SalamanderEYE/BFA-YJS-Web
 // @version      1.0
 // @description   BFA研究生教育管理系统选课界面优化及自动选课
-// @author       Corin
+// @author       Salamander
 // @match        *://202.205.127.146:8881/*
 // @icon         data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAFQUlEQVRYR+2WW2wUVRjH/2d2t5dtVVpLgRaiSFsUiJAQLoIYYmJMNF4eMIFWREkEKwkaQY0PaMuDlxgimBiCkZAUhKA2BkqVNLVc5BrxFgWLF0RAUKJ0Q23pds75/mZmd7u73XvxgQcnmczuzJxvfuf/XRWusUNdYzxwgaoP8i4QryuDaWLghQA00dP9L+gVjXZL4cXT81RnNhspX8dZClgLYio1LOqwzdirBqlxRgyWd69TO1XNEd6pBB0U+CIQSYEigIIum5h9Yb76IR1U+TucZVnYCx2260AkBwpt3ga1xkNq/FHuh8EcxqiSAchRq+3sAnVvOqCKDfyWgtvjINIBhYBPqVuP0KbAmxOQAaAx7exj6lgyqJEbeL+lsMvdebx7QmqkuqdBR6EADG7IFYhE87k6NS8ZUMV7PADB7FyBRMM4QBthsDhnIAMRjYnnn4gP8FGbOMci9qeNl9QKfaLG7eMYrw+dFPizDOpwBhLGZtOFxZ5FsSpVbmIriPuGACTGYIqb9jWH+QoMGnIC0oS2aaPfqvmjXp127FRu5GTlw9fUULkCicG73WvVUheo4hj9xVdwkoLRDlTGLNOA2OIoBNFYf7He+7RjZ0wTt5GYnxA7kUBOlWUa/5C46fJb6tJApa46wDplsCU7IML0uy6D0bS1xmpLQRWVehtddQZnUgYgY7Cye41a42wqpnVQVe/DIRrMzKSQuDAhhcJQyPNbyC/yJi9+6YFOBfyoRoOSQUBA1R7OBHAIJrzLcHWOB4xRxwUSiCGuK88DqHIGgsGDXW+olkhiJDTXqg5ugaAuoZeF4USHgfrFcZerkDdfoXCYLwSTLE5SKCQ22gOvqXtiszQBqOYzVgpxkgZFg7NODCAOSDR+XIWKy32wLCtXIKHG5K5X1fdpgZyHVe18mQaNCUAD6kRjyFWnxBdtCVkqJAYbularpwZX+qTz0OhDLMzvdlUaE8m6kDqOu6LB7MRO8QgfFFROQKIREGJsoEEFsgJyXrplN2sheH8AKFadcJblD/Mgz+/J3EAHxZC2sSjQoJqS9cE0EyPV2E9xEBp3OFnmpncwGj8ex1Wl3vTdO7Gz09hovLRKNaYaXdKOsDe3coYSHKahcgM5fMIC/MM9gMS4Kl2tcdxt4wv24YW/Vqm96eaojDP12BY2ieZCEwzFj1NKCx2Y2JoTaiFBaBUQjT4a9EDjMonvTBA/aY3WSyvViWzG3oxAo1tY6TH8WV+RAkeZghst0Cjb9GMf+6Qj2MsTf/7tacNz6ko2H8z0TkYgx8C4PXxcgnzJ8uKU7pXm3057NmO5CmYy7jy/PPeBMq3yppt++/PhB3d2Z1qTFVAqI6ytLwnavbOMYAqF40Q4AiLFJPPoXI1UUFiqRH75/YI1YdKJD/uHDERA2U8+O9nnzIUb3z6uADrGArW1JQVWcZ0YLoDIDIp4KARFgPDV+R25R0GfaDO3bE/z0UwwCc01siC4dMUEnyUfUDgxbPw8RL4ywuuVyHSKFEQ/GP14EiAbRh4paf9oRzYwSYEcZbBsRSdFaqIfDSkQr0L0XnKF0CNG5pe2bd+VLUxyoPpnxtPydiJO9tyAIDznAR4uat36ZS4wyYGWP19NIz8OFQgibT3B3oUj2z6+mCtMSpdx2crjEHNbLi4DpQ9GGop2bHlTuVP50I6kac/6FVMJ7qZIWXzGxGbSQGYFRWSbp9+sLmzZ/OvQMKKrUtYhLllSBvgfNZC7xXCSEhklIgUQ9JDmDA2/gUhHgSevWW1d33W1IJH1V1UY/yuIWDv/A2VS9V9Bi1JJK3MF9QAAAABJRU5ErkJggg==
 // @grant        none
 // @run-at       document-end
+// @license      GNU General Public License v3.0
+// @supportURL   https://github.com/SalamanderEYE/BFA-YJS-Web/issues
 // ==/UserScript==
 
 (function() {
