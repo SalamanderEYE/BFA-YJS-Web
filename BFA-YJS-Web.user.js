@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         BFA选课
+// @name         BFA研究生选课助手
 // @namespace     https://github.com/SalamanderEYE/BFA-YJS-Web
-// @version      1.0
+// @version      1.0.1
 // @description   BFA研究生教育管理系统选课界面优化及自动选课
 // @author       Salamander
 // @match        *://202.205.127.146:8881/*
